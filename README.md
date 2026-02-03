@@ -47,7 +47,7 @@ pnpm install
    - For the `SOROBAN_ESCROW_CONTRACT_ID`, refer to the [soroban-escrow-contract](https://github.com/padparadscho/soroban-escrow-contract) repository **OR** download the [WASM code](https://stellar.expert/explorer/public/contract/CCA5HAZCPEYXD7JBKAJCVUZUXAK7V5ZFU3QMJO33OJH2OHL3OGLS2P7M?filter=interface) from the official Stronghold (SHx) escrow contract on mainnet.
    - For the `STELLAR_ASSET_CONTRACT_ID`, refer to the [stellar-asset-contract-deployer](https://github.com/padparadscho/stellar-asset-contract-deployer) repository **OR** use the [SHx SAC (Stellar Asset Contract)](https://stellar.expert/explorer/public/contract/CCKCKCPHYVXQD4NECBFJTFSCU2AMSJGCNG4O6K4JVRE2BLPR7WNDBQIQ) on mainnet.
    - For the `SOROBAN_RPC_URL` and `NETWORK_PASSPHRASE`, refer to the [Soroban RPC providers](https://developers.stellar.org/docs/data/apis/rpc/providers) documentation.
-   - For the Twitter API credentials, refer to the [Twitter Developer Platform](https://docs.x.com/) documentation.
+   - For the Twitter API credentials, refer to the [Twitter Developer Platform](https://docs.x.com/) documentation. Check the [.env.example](/.env.example) file for the required variables.
    - For the `STELLAR_EXPLORER_BASE_URL`, set it to the appropriate Stellar explorer URL based on the network you are using ([testnet](https://stellar.expert/explorer/testnet), [mainnet](https://stellar.expert/explorer/public), etc.).
    - Set the `POLLING_INTERVAL` as desired (default is 60000ms).
    - (Optional) Set `DRY_RUN=true` to test without posting to Twitter.
