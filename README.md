@@ -84,6 +84,20 @@ docker logs -f soroban-escrow-twitter-bot-container
 docker stop soroban-escrow-twitter-bot-container && docker rm soroban-escrow-twitter-bot-container
 ```
 
+4. (Optional) Using Makefile:
+
+```bash
+make install      # Install dependencies
+make dev          # Run in development mode
+make build-local  # Build in production mode locally
+make start-local  # Build and start in production mode locally
+make build        # Build Docker image
+make run          # Build and run Docker container
+make stop         # Stop and remove container
+make logs         # View container logs
+make clean        # Stop container and remove image
+```
+
 ## Contributing
 
 If you're interested in helping improve the `soroban-escrow-twitter-bot` project, please see the [CONTRIBUTING](/CONTRIBUTING.md) file for guidelines on how to get started.
